@@ -1,0 +1,11 @@
+float *add(float *p1, float *p2);
+float *sub(float *p1, float *p2);
+float *mult(float *p, float x);
+float *div(float *p, float x);
+float *vmult(float *p1, float *p2);
+float dot(float *p1, float *p2);
+float* cross(float *p1, float *p2);
+float magSq(float *p);
+float mag(float *p);
+float *norm(float *p);
+float* locate3D(float* p1, float r1, float* p2, float r2, float* p3, float r3, float* p4, float r4);
